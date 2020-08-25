@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: #576B7D;
+}
+.main{
+	padding-left: 35%;
+	padding-right: 35%;
+	text-align: left;
+}
+
+.table{
+
+	margin-bottom: 10px;
+}
+.Firstname{
+
+	float: left;
+	margin-right: 20px;
+    margin-bottom: 10px;
+}
+.Lastname{
+
+    margin-bottom: 10px;
+}
+.Password{
+	margin-bottom: 10px;
+}
+.Email{
+	margin-bottom: 10px;
+}
+.ConfirmPassword{
+	margin-bottom: 10px;
+}
+.Address{
+	margin-bottom: 10px;
+}
+.City{
+	float: left;
+	margin-right: 20px;
+    margin-bottom: 10px;
+}
+.Region{
+	margin-bottom: 10px;
+}
+.ZIP{
+	margin-bottom: 10px;
+}
+.Tel{
+	margin-bottom: 20px;
+}
+#firstname{
+    width: 215px;
+}
+#lastname{
+    width: 215px;
+}
+#city{
+	width: 215px;
+}
+#region
+{
+	width: 215px
+}
+.button{
+	text-align: center;
+}
+#submit{
+	width: auto;
+	height: 30px;
+}
+.success{text-align: center;}
+
+.fail{text-align: center;}

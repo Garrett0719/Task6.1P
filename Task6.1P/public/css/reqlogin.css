@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+    text-align: center;
+}
+.title{
+    background-color: #576B7D;
+    text-align: center;
+}
+
+.SignIn{
+    text-align: center;
+    float: left;
+	margin-right: 150px;
+    margin-bottom: 10px;
+}
+.SignUp{
+    margin-bottom: 10px;
+}
+
+.Email{
+
+    margin-bottom: 10px;
+}
+
+.Password{
+    margin-bottom: 30px;
+}
+.main{
+    padding-top: 5%;
+	padding-left: 40%;
+	padding-right: 40%;
+	text-align: left;
+}
+
+#email{
+    width: 300px;
+}
+
+#password{
+    width: 300px;
+}

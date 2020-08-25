@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="css/reqlogin.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/superhero/bootstrap.min.css" integrity="sha384-HnTY+mLT0stQlOwD3wcAzSVAZbrBp141qwfR4WfTqVQKSgmcgzk+oP0ieIyrxiFO" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>sign in page</title>
+</head>
+
+<body>
+    <div class="title">
+        <h2>iCrowdTask Login</h2>
+    </div>
+    <div class="main">
+    <div class="SignIn">
+        <h4>Sign In</h4>
+    </div>
+    <div class="SignUp">
+        <a href="reqsignup.html" class="btn btn-link">Sign up</a>
+    </div>
+    
+    <form action="/reqtask" method="post">
+    <div class="Email">
+        <label for="email">Your email</label>
+        <br>
+        <input type="email" name="email" class="form-control" id="email" placeholder="Please input your email">
+    </div>
+    <div class="Password">
+    <label for="password">Password</label>
+    <br>
+    <input type="password" name="password" class="form-control" placeholder="Please input your password" id="password">
+    </div>
+    <div class="button">
+        <button type="submit" class="btn btn-success"> Login </button>
+    </div>   
+</div>
+</form>
+</body>
